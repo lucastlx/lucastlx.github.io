@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-left: 20rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 25rem;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .perfil img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 10px solid;
+    border-color: #365E70;
+}
+
+header .perfil .nome {
+    font-size: 2rem;
+}
+
+header .perfil .subnome {
+    font-size: 1rem;
+}
+
+header .barranavegacao {
+    width: 100%
+}
+
+header .barranavegacao ul {
+    list-style: none;
+    padding: 1rem 3rem;
+}
+
+header .barranavegacao ul li a {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #a0a0a0;
+    border-radius: 1.5rem;
+    color: #000000;
+}
+
+header .barranavegacao ul li a:hover {
+    background-color: #365E70;
+}
+
+section {
+    min-height: 100vh;
+    padding: 15rem;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.sobre h2 {
+    font-size: 1.8rem;
+    color: #365E70;
+}
+
+.sobre h3 {
+    font-size: 1.2rem;
+    color: #181D1F;
+}
+
+.sobre p {
+    font-size: 1.1rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.skills h2 {
+    font-size: 1.8rem;
+    color: #365E70;
+}
+
+.skills h3 {
+    font-size: 1.2rem;
+    color: #181D1F;
+}
+
+.skills img{
+    max-height: 80px;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+}
